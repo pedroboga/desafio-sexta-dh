@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     func fillLabels(person1: Pessoa, person2: Pessoa) {
         if person1.nome == person2.nome {
             Draw()
+            return
         }
         
         name1.text = person1.nome
