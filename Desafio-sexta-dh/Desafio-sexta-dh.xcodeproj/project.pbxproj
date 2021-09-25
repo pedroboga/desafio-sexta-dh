@@ -13,8 +13,6 @@
 		5AF6EF7826FE991900B3791A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF6EF7626FE991900B3791A /* Main.storyboard */; };
 		5AF6EF7A26FE992200B3791A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF6EF7926FE992200B3791A /* Assets.xcassets */; };
 		5AF6EF7D26FE992200B3791A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF6EF7B26FE992200B3791A /* LaunchScreen.storyboard */; };
-		5AF6EF8626FEA48700B3791A /* Profissao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6EF8526FEA48700B3791A /* Profissao.swift */; };
-		5AF6EF8826FEA49100B3791A /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6EF8726FEA49100B3791A /* Pessoa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		5AF6EF7926FE992200B3791A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF6EF7C26FE992200B3791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF6EF7E26FE992200B3791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AF6EF8526FEA48700B3791A /* Profissao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profissao.swift; sourceTree = "<group>"; };
-		5AF6EF8726FEA49100B3791A /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +56,6 @@
 		5AF6EF6F26FE991900B3791A /* Desafio-sexta-dh */ = {
 			isa = PBXGroup;
 			children = (
-				5AF6EF8426FEA46B00B3791A /* Models */,
 				5AF6EF7026FE991900B3791A /* AppDelegate.swift */,
 				5AF6EF7226FE991900B3791A /* SceneDelegate.swift */,
 				5AF6EF7426FE991900B3791A /* ViewController.swift */,
@@ -70,15 +65,6 @@
 				5AF6EF7E26FE992200B3791A /* Info.plist */,
 			);
 			path = "Desafio-sexta-dh";
-			sourceTree = "<group>";
-		};
-		5AF6EF8426FEA46B00B3791A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5AF6EF8526FEA48700B3791A /* Profissao.swift */,
-				5AF6EF8726FEA49100B3791A /* Pessoa.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF6EF8826FEA49100B3791A /* Pessoa.swift in Sources */,
-				5AF6EF8626FEA48700B3791A /* Profissao.swift in Sources */,
 				5AF6EF7526FE991900B3791A /* ViewController.swift in Sources */,
 				5AF6EF7126FE991900B3791A /* AppDelegate.swift in Sources */,
 				5AF6EF7326FE991900B3791A /* SceneDelegate.swift in Sources */,
